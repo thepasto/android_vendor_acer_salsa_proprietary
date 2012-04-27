@@ -54,6 +54,9 @@ PRODUCT_COPY_FILES += \
     vendor/acer/salsa/proprietary/libcamera.so:obj/lib/libcamera.so \
     vendor/acer/salsa/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/acer/salsa/proprietary/libmmipl.so:system/lib/libmmipl.so \
+    vendor/acer/salsa/proprietary/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
+    vendor/acer/salsa/proprietary/libmmosal.so:system/lib/libmmosal.so \
+    vendor/acer/salsa/proprietary/libmmparser.so:system/lib/libmmparser.so \
     vendor/acer/salsa/proprietary/libloc.so:system/lib/libloc.so \
     vendor/acer/salsa/proprietary/libloc.so:obj/lib/libloc.so \
     vendor/acer/salsa/proprietary/libloc-rpc.so:system/lib/libloc-rpc.so \
