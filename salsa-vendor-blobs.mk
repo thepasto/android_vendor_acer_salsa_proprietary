@@ -16,13 +16,6 @@
 
 # All the blobs necessary for salsa
 PRODUCT_COPY_FILES += \
-    vendor/acer/salsa/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/acer/salsa/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/acer/salsa/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/acer/salsa/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/acer/salsa/proprietary/libgsl.so:system/lib//libgsl.so \
-    vendor/acer/salsa/proprietary/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    vendor/acer/salsa/proprietary/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/acer/salsa/proprietary/BCM4325.hcd:system/etc/firmware/BCM4325.hcd \
     vendor/acer/salsa/proprietary/BCM4325.bin:system/etc/wifi/BCM4325.bin \
     vendor/acer/salsa/proprietary/BCM4325_apsta.bin:system/etc/wifi/BCM4325_apsta.bin \
@@ -67,6 +60,14 @@ PRODUCT_COPY_FILES += \
     vendor/acer/salsa/proprietary/libms3c_yamaha.so:system/lib/libms3c_yamaha.so \
     vendor/acer/salsa/proprietary/libsensor_yamaha.so:system/lib/libsensor_yamaha.so \
     vendor/acer/salsa/proprietary/sensors.salsa.so:system/lib/hw/sensors.salsa.so \
-    vendor/acer/salsa/proprietary/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-    vendor/acer/salsa/proprietary/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so
-
+    vendor/acer/salsa/proprietary/adreno_jb/system/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
+    vendor/acer/salsa/proprietary/adreno_jb/system/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+    vendor/acer/salsa/proprietary/adreno_jb/system/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/acer/salsa/proprietary/adreno_jb/system/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/acer/salsa/proprietary/adreno_jb/system/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+    vendor/acer/salsa/proprietary/adreno_jb/system/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+    vendor/acer/salsa/proprietary/adreno_jb/system/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/acer/salsa/proprietary/adreno_jb/system/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+    vendor/acer/salsa/proprietary/adreno_jb/system/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/acer/salsa/proprietary/adreno_jb/system/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
+    vendor/acer/salsa/proprietary/adreno_jb/system/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
